@@ -22,5 +22,8 @@
   "packageRules": [{
     "packageNames": ["golangci/golangci-lint"],
     "extractVersion": "^(?<version>v\\d+\\.\\d+)"
+  }, {
+    "packageNames": ["cuelang/cue"],
+    "extractVersion": "^v(?<version>.*)$"
   }]
 }
