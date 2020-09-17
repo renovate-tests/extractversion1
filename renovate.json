@@ -9,6 +9,15 @@
     ],
     "datasourceTemplate": "github-releases",
     "versioningTemplate": "loose"
+  }, {
+      "fileMatch": [
+        "^Dockerfile$"
+      ],
+      "matchStrings": [
+        "ENV CUE_VERSION(=| )(?<currentValue>.*?)\n"
+      ],
+      "depNameTemplate": "cuelang/cue",
+      "datasourceTemplate": "github-releases"
   }],
   "packageRules": [{
     "packageNames": ["golangci/golangci-lint"],
