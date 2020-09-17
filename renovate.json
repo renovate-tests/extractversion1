@@ -7,6 +7,7 @@
     "matchStrings": [
       "\n +version: (?<currentValue>.+) # (?<depName>.+)\n"
     ],
-    "datasourceTemplate": "github-releases"
+    "datasourceTemplate": "github-releases",
+    "versioningTemplate": "loose"
   }]
 }
