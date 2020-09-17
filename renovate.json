@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "regexManagers": [{
+    "fileMatch": [
+      "^.github/workflows/cicd.yaml$"
+    ],
+    "matchStrings": [
+      "\n +version: (?<currentValue>.+) # (?<depName>.+)\n"
+    ],
+    "datasourceTemplate": "github-releases"
+  }]
+}
