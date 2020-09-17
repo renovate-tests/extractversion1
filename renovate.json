@@ -9,5 +9,9 @@
     ],
     "datasourceTemplate": "github-releases",
     "versioningTemplate": "loose"
+  }],
+  "packageRules": [{
+    "packageNames": ["golangci/golangci-lint"],
+    "extractVersion": "^(?<version>v\\d+\\.\\d+)"
   }]
 }
