@@ -4,6 +4,7 @@
     "fileMatch": [
       "^.github/workflows/cicd.yaml$"
     ],
+    "dependencyDashboard": true,
     "matchStrings": [
       "\n +version: (?<currentValue>.+) # (?<depName>.+)\n"
     ],
