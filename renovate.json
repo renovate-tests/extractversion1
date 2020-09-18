@@ -1,6 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "dependencyDashboard": true,
+  "requiredStatusChecks": ["foo"],
+  "automerge": true,
   "regexManagers": [{
     "fileMatch": [
       "^.github/workflows/cicd.yaml$"
