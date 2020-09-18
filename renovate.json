@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "dependencyDashboard": true,
   "regexManagers": [{
     "fileMatch": [
       "^.github/workflows/cicd.yaml$"
     ],
-    "dependencyDashboard": true,
     "matchStrings": [
       "\n +version: (?<currentValue>.+) # (?<depName>.+)\n"
     ],
